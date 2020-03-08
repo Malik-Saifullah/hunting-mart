@@ -1,0 +1,123 @@
+@media(max-width:1237px){
+    .services-list li{
+        width: 33.3% !important;
+        padding: 10px 10px !important;
+    }
+    .services-list li:nth-child(4){
+        display: block;
+        margin: 10px auto !important;
+    }
+}
+
+@media(max-width:1041px){
+    div.nav{
+        position: unset !important;
+    }
+    .top-header .social-icons{
+        display: none !important;
+    }
+}
+
+@media(max-width:882px){
+    .content{
+        width: 100% !important;
+    }
+    .top-header .container{
+        overflow: hidden;
+        display: block !important;
+        width: 100%;
+    }
+    .find-us,.form{
+        display: inline-block !important;
+        width: 100% !important;
+    }
+    .middle-header{
+        margin-bottom: 15px !important;
+    }
+    .bottom-header{
+        display: none !important;
+    }
+    .logo{
+        display: none !important;
+    }
+    .cart-box{
+        width: 50% !important;
+        padding-left: 2% !important;
+    }
+    .product-list{
+        display: block !important;
+        margin: 5% auto !important;
+        width: 100% !important;
+    }
+    .product-container{
+        display: inline-block !important;
+        width: 47% !important;
+        margin: 10px;
+    }
+    .product-container:nth-child(3){
+        display: block !important;
+        margin: 5px auto;
+    }
+    .row{
+        width: 100% !important;
+        display: block !important;
+    }
+    .col{
+        width: 47% !important;
+        display: inline-block !important;
+        margin: 10px !important;
+    }
+    .img-container{
+        display: none !important;
+    }
+    .middle-footer .container{
+        display: block !important;
+    }
+    .menu-list{
+        display: inline-block !important;
+        width: 45% !important;
+        margin: 10px !important;
+    }
+}
+
+@media(max-width:799px){
+    .services-list li{
+        display: inline-block !important;
+        width: 50% !important;
+        padding: 10px 10px !important;
+    }
+    .product-container{
+        display: inline-block !important;
+        width: 46% !important;
+    }
+    .row{
+        width: 100% !important;
+        display: block !important;
+    }
+    .col{
+        width: 46% !important;
+        display: inline-block !important;
+        margin: 10px !important;
+    }
+}
+
+@media(max-width:628px){
+    .product-container{
+        display: inline-block !important;
+        width: 100% !important;
+        margin: 0 !important;
+    }
+    .col{
+        width: 100% !important;
+        display: inline-block !important;
+        margin: 10px !important;
+    }
+}
+
+@media(max-width:550px){
+    .menu-list{
+        display: inline-block !important;
+        width: 100% !important;
+        margin: 10px !important;
+    }
+}
